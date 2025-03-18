@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.goal{
+    display:
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    /* background-color: rgb(123, 87, 37); */
+    background-color: rgb(55, 65, 79);
+    overflow: hidden;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #ffffff;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  .board {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.player {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.track {
+    display: flex;
+    background-color: rgb(193, 183, 183);
+    padding: 5px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+    margin: 2px;
+    font-weight: bold;
+}
+.player-token {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.goal {
+    font-size: 45px; /* Increase flag size */
+    margin-left: 10px;
+}
+
+h2{
+  /* margin-top: 10px; */
+  color: rgb(249, 239, 217);
+}
+footer {
+  font-family: sans-serif;
+  margin-top: 110px;
+  position: sticky;
+  color: white;
+}
+
+#newGameBtn{
+  padding: 15px;
+  background-color: rgb(174, 17, 17);
+  color: rgb(249, 239, 217);
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+
