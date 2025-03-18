@@ -18,7 +18,7 @@ function rollDice(player) {
     }
 
     let roll = Math.floor(Math.random() * 6) + 1;
-    document.querySelector(`.img${player}`).setAttribute("src", `./Dicee+Challenge+-+Starting+Files/images/dice${roll}.png`);
+    document.querySelector(`.img${player}`).setAttribute("src", `dice${roll}.png`);
 
     let distanceToGoal = 15 - playerPositions[player];
     if (roll <= distanceToGoal) {
